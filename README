@@ -1,0 +1,16 @@
+Needs the following python libraries:
+subprocess
+optparse
+re
+
+Install libraries using:
+"pip install library_name"
+
+Arguments:
+-h, --help: display information about the arhuments
+-i, --interface: specify the interface whose MAC address is to be changed
+-m, --mac: specify the new MAC address to change into
+
+Usage:
+cd into the folder containing mac_changer.py
+"python mac_changer -i interface_name -m 11:22:33:44:55:66" # changes mac address of "interface_name" to 11:22:33:44:55:66
